@@ -1,0 +1,134 @@
+/*// Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+ /*Variables*/
+@import 'variables'; 
+$fa-font-path: "../webfonts";
+
+ /*Bootstrap*/
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+
+
+ /*@import "../css/ionicons.min.css";*/
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../css/select2.min.css";
+@import "../css/tailwind.css";
+@import '~vue2-datepicker/scss/index.scss';
+
+/*.router-link-exact-active {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}*/
+
+.content-wrapper {
+    background-color: #fff !important;
+}
+
+/*Badge Status*/
+.badge-pending {
+    color: #fff;
+    background-color: #ffc300;
+}
+.badge-success {
+    color: #fff;
+    background-color: #33f000;
+}
+.badge-failed {
+    color: #fff;
+    background-color: #fa3300;
+}
+.badge-web {
+    color: #fff;
+    background-color: #e83e8c;
+}
+.badge-app {
+    color: #fff;
+    background-color: #20c997;
+}
+.badge-ml {
+    color: #fff;
+    background-color: #fd7e14;
+}
+
+/*  Project type  */
+.dot-app {
+    height: 15px;
+    width: 15px;
+    background-color: #fd7e14;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot-web {
+    height: 15px;
+    width: 15px;
+    background-color: #cc0050;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot-ml {
+    height: 15px;
+    width: 15px;
+    background-color: #e83e8c;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot-network {
+    height: 15px;
+    width: 15px;
+    background-color: #DA70D6;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot-iot {
+    height: 15px;
+    width: 15px;
+    background-color: #00008B;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot-desktop {
+    height: 15px;
+    width: 15px;
+    background-color: #0000cc;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot-ds {
+    height: 15px;
+    width: 15px;
+    background-color: #00BFFF;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .badge {
+      margin-top: 6px !important;
+      padding: .5em !important;
+  }
+  .badge-admin {
+    color: #fff;
+    background-color: #00cc00;
+  }
+
+  .badge-student {
+    color: #fff;
+    background-color: #00aaff;
+  }
+
+  .badge-supervisor {
+    color: #fff;
+    background-color: sandybrown;
+  }
+  .fa-check-circle{
+    background-color: white !important;
+    color: green;
+    font-weight: 200;
+  }
